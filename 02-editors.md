@@ -70,13 +70,13 @@ What graphical editor will you use? How did you make your decision? What are som
 I will use Atom. I think it looks great, there are plenty of plugins to choose from, and the short cuts are also easy to use. Some of my favorite features are the multiple panes, and the indexing of your files and folders to allow search! 
 
 I also found a couple of useful keyboard shortcuts:
-1. **Multiple cursors**
+ 1. **Multiple cursors**
     Hold **cmd** and click in every place you want the cursor in.
-2. **Moving the line up and down**
+ 2. **Moving the line up and down**
     **cmd+ctrl+up** or **cmd+ctrl+down** to move the line your cursor is currently on the the line above or under it.
-3. **Duplicating a line**
+ 3. **Duplicating a line**
     **cmd+shift+d** to duplicate the line your cursor is currently on.
-4. **Finding and selecting a matching word**
+ 4. **Finding and selecting a matching word**
     **cmd+d** to select the next matching word.
     **cmd+u** to unselect the next matching word.
     **ctrl+cmd+g** to select all matching words.

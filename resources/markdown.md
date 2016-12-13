@@ -172,8 +172,7 @@ What is the most installed language in the world?
 - R
 - Spark
 - Javascript
-
->>REPLACE THIS TEXT WITH YOUR RESPONSE
+- Java
 
 -
 
@@ -185,8 +184,7 @@ What is the distribution of t-squared?
  * Chi-squared
  * Beta
  * Bivariate Normal
-
->>REPLACE THIS TEXT WITH YOUR RESPONSE
+ * Gaussian
 
 ***
 
@@ -196,8 +194,7 @@ In the scikit-learn's official source repo, about how many issues are outstandin
 2. 70  
 3. 700  
 4. 7000  
-
->>REPLACE THIS TEXT WITH YOUR RESPONSE
+5. 701
 
 ---
 

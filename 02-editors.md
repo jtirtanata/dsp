@@ -60,14 +60,28 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
+I will use **vim**. I have used it for a long time, it's awesome, I am familiar with a lot of the shortcuts and can code in it fairly quickly.
 --
 
 ###Q2. Graphical Editor
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I will use Atom. I think it looks great, there are plenty of plugins to choose from, and the short cuts are also easy to use. Some of my favorite features are the multiple panes, and the indexing of your files and folders to allow search! 
 
+I also found a couple of useful keyboard shortcuts:
+1. **Multiple cursors**
+Hold **cmd** and click in every place you want the cursor in.
+2. **Moving the line up and down**
+**cmd+ctrl+up** or **cmd+ctrl+down** to move the line your cursor is currently on the the line above or under it.
+3. **Duplicating a line**
+**cmd+shift+d** to duplicate the line your cursor is currently on.
+4. **Finding and selecting a matching word**
+**cmd+d** to select the next matching word.
+**cmd+u** to unselect the next matching word.
+**ctrl+cmd+g** to select all matching words.
+
+How I'm customizing my atom editor:
+1. Creating the shortcut **cmd+i** for fixing my identations.
+2.
  

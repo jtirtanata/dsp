@@ -82,6 +82,6 @@ I also found a couple of useful keyboard shortcuts:
     ```ctrl+cmd+g``` to select all matching words.
 
 How I'm customizing my atom editor:
-1. Creating the shortcut **cmd+i** for fixing my identations.
-2.
+ 1. Creating the shortcut ```cmd+i``` for fixing my identations.
+ 2.
  

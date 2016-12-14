@@ -7,18 +7,32 @@ tutorial](https://web.archive.org/web/20160708171659/http://cli.learncodethehard
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
- 1. 
- ```sh 
- pwd 
- ``` 
+ 1. ```pwd``` 
      + print working directory
      + basically telling you where you are (which directory you're in)
- 2. 
- ```sh 
- touch <new-file>
- ```
+ 2. ```touch <new-file>```
      + Create an empty file.
- 
+ 3. ***ls options***
+     + ```ls -a``` Views hidden files. Hidden files are files that starts with a ```.```
+     + ```ls -l``` Lists file in the long format. This includes rwx permissions, owner, owner group, file size, date of last modification.
+     + ```ls -t``` Lists file and directories based on the time they were last modified.
+ 4. ```cp```
+     + The last argument is the destination.
+     + The rest of the arguments are the files to be copied to the destination.
+     + Remember that cp works also with ```*``` - select all or partial files in a directory.
+     + note: the same tricks also work for ```mv```
+ 5. ```rm -r```
+     + recursively remove. This means, we can delete a directory and its child directories. 
+ 6. ```>```
+     + redirection
+     + it redirects the output of the LHS as input to the RHS
+     + it *overwrites* all of the original content of the RHS.
+ 7. ```>>```
+     + Like the single ```>``` above, it redirects. The difference is, ```>>``` appends the content instead of overwriting it.
+ 8. ```<```
+     + Take the file on the RHS as input to the LHS.
+     + Difference from just the opposite of ```>```, you don't need to "cat" the file on the RHS, it simple takes the file contents as input to the LHS
+ 9.
 
 ---
 

@@ -8,10 +8,10 @@ tutorial](https://web.archive.org/web/20160708171659/http://cli.learncodethehard
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
  1. ```bash pwd ``` 
- ⋅⋅+ print working directory
- ⋅⋅+ basically telling you where you are (which directory you're in)
+     + print working directory
+     + basically telling you where you are (which directory you're in)
  2. ```bash touch <new-file>```
- ..+ Create an empty file.
+     + Create an empty file.
  
 
 ---

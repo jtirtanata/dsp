@@ -85,11 +85,17 @@ I also found a couple of useful keyboard shortcuts:
  6. **Search tool**
     ```cmd+t``` to open the search box.
  7. **Tree view**
-    ```cmd+\\ ``` to toggle the tree view. Hide it to have more space when you're coding, and quickly open it again to navigate to another file!
+    ```cmd+\``` to toggle the tree view. Hide it to have more space when you're coding, and quickly open it again to navigate to another file!
+ 8. 
     
     
 
 How I'm customizing my atom editor:
  1. Creating the shortcut ```cmd+i``` for fixing my identations.
- 2. 
+ 2. Installed atom material theme
+ 3. Installed the color-picker plugin. ```cmd+shift+c``` will open the color picker and give me the RGB values
+ 4. Installed docblockr plugin that will detect the details of a function and autofill a corresponding comment.
+ 5. Installed linter-python. It will detect, visualize, and notify your python errors.
+ 6. Installed autocomplete-python. It can autocomplete packages, variables, methods, functions and its arguments.
+ 
  

@@ -82,6 +82,11 @@ I also found a couple of useful keyboard shortcuts:
     ```ctrl+cmd+g``` to select all matching words.
  5. **Live preview markdown**
     ```ctrl+shift+m``` to toggle markdown preview.
+ 6. **Search tool**
+    ```cmd+t``` to open the search box.
+ 7. **Tree view**
+    ```cmd+\\ ``` to toggle the tree view. Hide it to have more space when you're coding, and quickly open it again to navigate to another file!
+    
     
 
 How I'm customizing my atom editor:

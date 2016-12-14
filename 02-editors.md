@@ -67,7 +67,7 @@ I will use **vim**. I have used it for a long time, it's awesome, I am familiar 
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
-I will use Atom. I think it looks great, there are plenty of plugins to choose from, and the short cuts are also easy to use. Some of my favorite features are the multiple panes, and the indexing of your files and folders to allow search! 
+I will use Atom. I think it looks great, there are plenty of plugins to choose from, and the short cuts are also easy to use. It is also created by github, which means that it has some cool features that are uber github! (i.e. a markdown editor, for one) Some of my favorite features are the multiple panes, and the indexing of your files and folders to allow search! 
 
 I also found a couple of useful keyboard shortcuts:
  1. **Multiple cursors**
@@ -80,8 +80,11 @@ I also found a couple of useful keyboard shortcuts:
     ```cmd+d``` to select the next matching word.
     ```cmd+u``` to unselect the next matching word.
     ```ctrl+cmd+g``` to select all matching words.
+ 5. **Live preview markdown**
+    ```ctrl+shift+m``` to toggle markdown preview.
+    
 
 How I'm customizing my atom editor:
  1. Creating the shortcut ```cmd+i``` for fixing my identations.
- 2.
+ 2. 
  

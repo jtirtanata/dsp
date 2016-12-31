@@ -68,7 +68,7 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
-List comprehension is an alternative way to filter, map and reduce lists.
+List comprehension is an alternative way to filter, map and reduce lists. It can completely substitute those functions and syntax is preferable to some people.
 
 ```python
 # filter
@@ -81,7 +81,19 @@ List comprehension is an alternative way to filter, map and reduce lists.
 >>> l2_capitalized = [x.capitalize() for x in l2]
 >>> l2_capitalized
 ['Cat', 'Dog', 'Fish']
+# set comprehensions
+>>> a = set(['ab', 'ac', 'bc'])
+>>> b = {x for x in a if 'a' in x}
+{'ac', 'ab'}
+# dict comprehension
+>>> d = {'one' : 'uno', 'two' : 'dos', 'three' : 'tres'}
+>>> {v:k for k,v in d.items()}
+{'dos': 'two', 'uno': 'one', 'tres': 'three'}
+
 ```
+From the examples above, we can see that set comprehension is similar with list comprehension using curly braces instead of square brackets.
+
+Similarly, make the dictionary iterable and map two values, the key and value, for dictionary comprehension.
 
 ---
 
@@ -96,7 +108,7 @@ date_start = '01-02-2013'
 date_stop = '07-28-2015'
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+937
 
 b.  
 ```
@@ -104,7 +116,7 @@ date_start = '12312013'
 date_stop = '05282015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+513
 
 c.  
 ```
@@ -112,7 +124,7 @@ date_start = '15-Jan-1994'
 date_stop = '14-Jul-2015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE  (answer will be in number of days)
+7850
 
 Place code in this file: [q5_datetime.py](python/q5_datetime.py)
 

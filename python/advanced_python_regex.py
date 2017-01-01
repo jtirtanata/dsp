@@ -1,5 +1,6 @@
 import csv
 import re
+
 FILE = 'faculty.csv'
 
 degree_frequency = {}
@@ -30,6 +31,9 @@ def email_counter(email):
     match = re.fullmatch(r'[\w_\-\.]+@([\w\.]+)', email)
     frequency_counter(domain_frequency, match.group(1))
 
+def print_frequency_dict(d):
+    for k,v in d.items():
+        print ('- {} : {}'.format(k, v))
 
 with open(FILE, 'r') as csvfile:
     reader = csv.reader(csvfile)
@@ -38,11 +42,6 @@ with open(FILE, 'r') as csvfile:
         degree_counter(row[1])
         title_counter(row[2])
         email_counter(row[3])
-
-def print_frequency_dict(d):
-    for k,v in d.items():
-        print ('- {} : {}'.format(k, v))
-
 
 print('There are {} different degrees.'.format(len(degree_frequency)))
 print_frequency_dict(degree_frequency)

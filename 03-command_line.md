@@ -8,7 +8,7 @@ tutorial](https://web.archive.org/web/20160708171659/http://cli.learncodethehard
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
 >>
- 1. ```pwd``` 
+ 1. ```pwd```
      + print working directory
      + basically telling you where you are (which directory you're in)
  2. ```touch <new-file>```
@@ -17,7 +17,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
      + ```ls -a``` Views hidden files. Hidden files are files that starts with a ```.```
      + ```ls -l``` Lists file in the long format. This includes rwx permissions, owner, owner group, file size, date of last modification.
      + ```ls -t``` Lists file and directories based on the time they were last modified.
- 4. ```cp```
+ 4. ```cp ```
      + The last argument is the destination.
      + The rest of the arguments are the files to be copied to the destination.
      + Remember that cp works also with ```*``` - select all or partial files in a directory.
@@ -33,7 +33,15 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
  8. ```<```
      + Take the file on the RHS as input to the LHS.
      + Difference from just the opposite of ```>```, you don't need to "cat" the file on the RHS, it simple takes the file contents as input to the LHS
- 9.
+ 9. `sort`
+     + Takes the standard input and orders it alphabetically for the standard output.
+ 10. `grep`
+     + Searches the files for lines that matches a pattern and returns the result to the standard output.
+     + -i to be case insensitive
+     + -R searches all of the files in the directory and outputs filenames and lines containing matched results
+     + -Rl like above but only filenames.
+ 11. `sed`
+     + Modifies standard input based on an expression before displaying it as output data.
 
 ---
 
@@ -48,7 +56,15 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+>>
+ - `ls` List files in the current directory.
+ - `ls -a` Adds hidden files to the regular ls.
+ - `ls -l` List files in long format. This includes rwx permissions, owner, owner group, file size, date of last modification
+ - `ls -lh` Lists files in long format but uses unit suffixes (i.e Bytes -> B) to reduce number of digits.
+ - `ls -lah` Lists files, including hidden ones, in the long format with unit suffixes.
+ - `ls -t` List files ordered by time modified.
+ - `ls -Glp` List files in colorized and long format. Also adds a slash after each filename if that file is a directory.
+
 
 ---
 
@@ -56,7 +72,12 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> >
+- `ls -S` Sort the files by size.
+- `ls -u` Sort by time of last access instead of last modification.
+- `ls -U` Sort by time of creation instead of last modification.
+- `ls -r` Reverse the order of the sort.
+- `ls -R` Recursively list subdirectories encountered.
 
 ---
 
@@ -64,4 +85,6 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > It divides the list from standard input into a sublist that we want to do some operation on. It is used in conjunction with find and grep.  
+example: `find /tmp -name "*.tmp" | xargs rm`  
+This removes all of the files that ends in temp in the tmp/ directory.

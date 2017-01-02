@@ -1,5 +1,6 @@
 import csv
 import re
+import common
 
 FILE = 'faculty.csv'
 
@@ -22,9 +23,9 @@ def degree_counter(degrees):
         degree = degree.replace('.','')
         frequency_counter(degree_frequency, degree)
 
-def title_counter(title):
-    match = re.fullmatch(r'([A-Z][\w-]*(\s+[A-Z][\w-]*)*)\s+(\w){2}\s+(Biostatistics)', title)
-    frequency_counter(title_frequency, match.group(1))
+def title_counter(full_title):
+    title = common.fetch_title(full_title)
+    frequency_counter(title_frequency, title)
 
 def email_counter(email):
     email_list.append(email)

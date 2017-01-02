@@ -129,11 +129,49 @@ professor_dict = {('Susan', 'Ellenberg'): ['Ph.D.', 'Professor', 'sellenbe@upenn
 
 Print the first 3 key and value pairs of the dictionary:
 
->> REPLACE THIS WITH YOUR RESPONSE
+```
+Bryan: [[' PhD', 'Assistant Professor', 'bryanma@upenn.edu']]
+Localio: [[' JD MA MPH MS PhD', 'Associate Professor', 'rlocalio@upenn.edu']]
+Morales: [[' Sc.D.', 'Associate Professor', 'knashawn@mail.med.upenn.edu']]
+```
 
 ####Q8.  It looks like the current dictionary is printing by first name.  Print out the dictionary key value pairs based on alphabetical orders of the last name of the professors
 
->> REPLACE THIS WITH YOUR RESPONSE
+```
+Bellamy: [[' Sc.D.', 'Associate Professor', 'bellamys@mail.med.upenn.edu']]
+Bilker: [['Ph.D.', 'Professor', 'warren@upenn.edu']]
+Bryan: [[' PhD', 'Assistant Professor', 'bryanma@upenn.edu']]
+Chen: [[' Ph.D.', 'Associate Professor', 'jinboche@upenn.edu']]
+Ellenberg: [[' Ph.D.', 'Professor', 'sellenbe@upenn.edu'], [' Ph.D.', 'Professor', 'jellenbe@mail.med.upenn.edu']]
+Feng: [[' Ph.D', 'Assistant Professor', 'ruifeng@upenn.edu']]
+French: [[' PhD', 'Associate Professor', 'bcfrench@mail.med.upenn.edu']]
+Gimotty: [[' Ph.D', 'Professor', 'pgimotty@upenn.edu']]
+Guo: [[' Ph.D', 'Professor', 'wguo@mail.med.upenn.edu']]
+Hsu: [[' Ph.D.', 'Assistant Professor', 'hsu9@mail.med.upenn.edu']]
+Hubbard: [[' PhD', 'Associate Professor', 'rhubb@mail.med.upenn.edu']]
+Hwang: [[' Ph.D.', 'Associate Professor', 'whwang@mail.med.upenn.edu']]
+Joffe: [[' MD MPH Ph.D', 'Professor', 'mjoffe@mail.med.upenn.edu']]
+Landis: [[' B.S.Ed. M.S. Ph.D.', 'Professor', 'jrlandis@mail.med.upenn.edu']]
+Li: [[' Ph.D.', 'Assistant Professor', 'liy3@email.chop.edu'], [' Ph.D.', 'Associate Professor', 'mingyao@mail.med.upenn.edu'], [' Ph.D', 'Professor', 'hongzhe@upenn.edu']]
+Localio: [[' JD MA MPH MS PhD', 'Associate Professor', 'rlocalio@upenn.edu']]
+Mitra: [[' Ph.D.', 'Associate Professor', 'nanditam@mail.med.upenn.edu']]
+Morales: [[' Sc.D.', 'Associate Professor', 'knashawn@mail.med.upenn.edu']]
+Propert: [[' Sc.D.', 'Professor', 'propert@mail.med.upenn.edu']]
+Putt: [[' PhD ScD', 'Professor', 'mputt@mail.med.upenn.edu']]
+Ratcliffe: [[' Ph.D.', 'Associate Professor', 'sratclif@upenn.edu']]
+Ross: [[' PhD', 'Assistant Professor', 'michross@upenn.edu']]
+Roy: [[' Ph.D.', 'Associate Professor', 'jaroy@mail.med.upenn.edu']]
+Sammel: [[' Sc.D.', 'Professor', 'msammel@cceb.med.upenn.edu']]
+Shaw: [[' PhD', 'Assistant Professor', 'shawp@upenn.edu']]
+Shinohara: [['0', 'Assistant Professor', 'rshi@mail.med.upenn.edu']]
+Shou: [[' Ph.D.', 'Assistant Professor', 'hshou@mail.med.upenn.edu']]
+Shults: [[' Ph.D.', 'Professor', 'jshults@mail.med.upenn.edu']]
+Stephens: [[' Ph.D.', 'Assistant Professor', 'alisaste@mail.med.upenn.edu']]
+Troxel: [[' ScD', 'Professor', 'atroxel@mail.med.upenn.edu']]
+Xiao: [[' PhD', 'Assistant Professor', 'rxiao@mail.med.upenn.edu']]
+Xie: [[' Ph.D.', 'Associate Professor', 'sxie@mail.med.upenn.edu'], [' PhD', 'Assistant Professor', 'dxie@upenn.edu']]
+Yang: [[' Ph.D.', 'Assistant Professor', 'weiyang@mail.med.upenn.edu']]
+```
 
 Place your code in this file: [advanced_python_dict.py](python/advanced_python_dict.py)
 

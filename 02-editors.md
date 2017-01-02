@@ -60,14 +60,14 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
-I will use **vim**. I have used it for a long time, it's awesome, I am familiar with a lot of the shortcuts and can code in it fairly quickly.
+>>I will use **vim**. I have used it for a long time, it's awesome, I am familiar with a lot of the shortcuts and can code in it fairly quickly.
 --
 
 ###Q2. Graphical Editor
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
-I will use Atom. I think it looks great, there are plenty of plugins to choose from, and the short cuts are also easy to use. It is also created by github, which means that it has some cool features that are uber github! (i.e. a markdown editor, for one) Some of my favorite features are the multiple panes, and the indexing of your files and folders to allow search! 
+>>I will use Atom. I think it looks great, there are plenty of plugins to choose from, and the short cuts are also easy to use. It is also created by github, which means that it has some cool features that are uber github! (i.e. a markdown editor, for one) Some of my favorite features are the multiple panes, and the indexing of your files and folders to allow search!
 
 I also found a couple of useful keyboard shortcuts:
  1. **Multiple cursors**
@@ -86,9 +86,9 @@ I also found a couple of useful keyboard shortcuts:
     ```cmd+t``` to open the search box.
  7. **Tree view**
     ```cmd+\``` to toggle the tree view. Hide it to have more space when you're coding, and quickly open it again to navigate to another file!
- 8. 
-    
-    
+ 8.
+
+
 
 How I'm customizing my atom editor:
  1. Creating the shortcut ```cmd+i``` for fixing my identations.
@@ -97,5 +97,3 @@ How I'm customizing my atom editor:
  4. Installed docblockr plugin that will detect the details of a function and autofill a corresponding comment.
  5. Installed linter-python. It will detect, visualize, and notify your python errors.
  6. Installed autocomplete-python. It can autocomplete packages, variables, methods, functions and its arguments.
- 
- 

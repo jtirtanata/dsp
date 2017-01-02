@@ -48,21 +48,13 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
-Python 3. I already have Python 3 installed, and I am more familiar with python 3 syntax than python 2.
+>>Python 3. I already have Python 3 installed, and I am more familiar with python 3 syntax than python 2.
 
 ###Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
-This will give you the version if you have Python 2 installed.
+>> Run this on the terminal:
 ```bash
-python -v
-```
-This will give you the version if you have Python 3 installed.
-```bash
-python3 -v
+python --version
 ```
 If one of these commands return an error "command not found", it is not installed in the computer.
-
- 
-
-

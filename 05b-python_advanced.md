@@ -19,8 +19,7 @@ This data is available in this file:  [faculty.csv](python/faculty.csv)
 
 ####Q1. Find how many different degrees there are, and their frequencies: Ex:  PhD, ScD, MD, MPH, BSEd, MS, JD, etc.
 
-**There are 8 different degrees.**
-
+>>**There are 8 different degrees.**
 - MPH : 2
 - BSEd : 1
 - MD : 1
@@ -33,14 +32,14 @@ This data is available in this file:  [faculty.csv](python/faculty.csv)
 
 ####Q2. Find how many different titles there are, and their frequencies:  Ex:  Assistant Professor, Professor
 
-**There are 3 different titles.**
+>>**There are 3 different titles.**
 - Professor : 13
 - Assistant Professor : 12
 - Associate Professor : 12
 
 ####Q3. Search for email addresses and put them in a list.  Print the list of email addresses.
 
-**List of emails:**
+>>**List of emails:**
 - bellamys@mail.med.upenn.edu
 - warren@upenn.edu
 - bryanma@upenn.edu
@@ -82,8 +81,7 @@ This data is available in this file:  [faculty.csv](python/faculty.csv)
 
 ####Q4. Find how many different email domains there are (Ex:  mail.med.upenn.edu, upenn.edu, email.chop.edu, etc.).  Print the list of unique email domains.
 
-
-**There are 4 different domains.**
+>>**There are 4 different domains.**
 - upenn.edu : 12
 - cceb.med.upenn.edu : 1
 - mail.med.upenn.edu : 23
@@ -119,7 +117,10 @@ faculty_dict = { 'Ellenberg': [['Ph.D.', 'Professor', 'sellenbe@upenn.edu'], ['P
 ```
 Print the first 3 key and value pairs of the dictionary:
 
->> REPLACE THIS WITH YOUR RESPONSE
+>>
+```
+[('Bellamy', [[' Sc.D.', 'Associate Professor', 'bellamys@mail.med.upenn.edu']]), ('Bilker', [['Ph.D.', 'Professor', 'warren@upenn.edu']]), ('Bryan', [[' PhD', 'Assistant Professor', 'bryanma@upenn.edu']])]
+```
 
 ####Q7.  The previous dictionary does not have the best design for keys.  Create a new dictionary with keys as:
 
@@ -129,48 +130,17 @@ professor_dict = {('Susan', 'Ellenberg'): ['Ph.D.', 'Professor', 'sellenbe@upenn
 
 Print the first 3 key and value pairs of the dictionary:
 
+>>
 ```
-Bryan: [[' PhD', 'Assistant Professor', 'bryanma@upenn.edu']]
-Localio: [[' JD MA MPH MS PhD', 'Associate Professor', 'rlocalio@upenn.edu']]
-Morales: [[' Sc.D.', 'Associate Professor', 'knashawn@mail.med.upenn.edu']]
+[(('A. Russell', 'Localio'), [' JD MA MPH MS PhD', 'Associate Professor', 'rlocalio@upenn.edu']), (('Alisa Jane', 'Stephens'), [' Ph.D.', 'Assistant Professor', 'alisaste@mail.med.upenn.edu']), (('Andrea Beth', 'Troxel'), [' ScD', 'Professor', 'atroxel@mail.med.upenn.edu'])]
 ```
+
 
 ####Q8.  It looks like the current dictionary is printing by first name.  Print out the dictionary key value pairs based on alphabetical orders of the last name of the professors
 
+>>
 ```
-Bellamy: [[' Sc.D.', 'Associate Professor', 'bellamys@mail.med.upenn.edu']]
-Bilker: [['Ph.D.', 'Professor', 'warren@upenn.edu']]
-Bryan: [[' PhD', 'Assistant Professor', 'bryanma@upenn.edu']]
-Chen: [[' Ph.D.', 'Associate Professor', 'jinboche@upenn.edu']]
-Ellenberg: [[' Ph.D.', 'Professor', 'sellenbe@upenn.edu'], [' Ph.D.', 'Professor', 'jellenbe@mail.med.upenn.edu']]
-Feng: [[' Ph.D', 'Assistant Professor', 'ruifeng@upenn.edu']]
-French: [[' PhD', 'Associate Professor', 'bcfrench@mail.med.upenn.edu']]
-Gimotty: [[' Ph.D', 'Professor', 'pgimotty@upenn.edu']]
-Guo: [[' Ph.D', 'Professor', 'wguo@mail.med.upenn.edu']]
-Hsu: [[' Ph.D.', 'Assistant Professor', 'hsu9@mail.med.upenn.edu']]
-Hubbard: [[' PhD', 'Associate Professor', 'rhubb@mail.med.upenn.edu']]
-Hwang: [[' Ph.D.', 'Associate Professor', 'whwang@mail.med.upenn.edu']]
-Joffe: [[' MD MPH Ph.D', 'Professor', 'mjoffe@mail.med.upenn.edu']]
-Landis: [[' B.S.Ed. M.S. Ph.D.', 'Professor', 'jrlandis@mail.med.upenn.edu']]
-Li: [[' Ph.D.', 'Assistant Professor', 'liy3@email.chop.edu'], [' Ph.D.', 'Associate Professor', 'mingyao@mail.med.upenn.edu'], [' Ph.D', 'Professor', 'hongzhe@upenn.edu']]
-Localio: [[' JD MA MPH MS PhD', 'Associate Professor', 'rlocalio@upenn.edu']]
-Mitra: [[' Ph.D.', 'Associate Professor', 'nanditam@mail.med.upenn.edu']]
-Morales: [[' Sc.D.', 'Associate Professor', 'knashawn@mail.med.upenn.edu']]
-Propert: [[' Sc.D.', 'Professor', 'propert@mail.med.upenn.edu']]
-Putt: [[' PhD ScD', 'Professor', 'mputt@mail.med.upenn.edu']]
-Ratcliffe: [[' Ph.D.', 'Associate Professor', 'sratclif@upenn.edu']]
-Ross: [[' PhD', 'Assistant Professor', 'michross@upenn.edu']]
-Roy: [[' Ph.D.', 'Associate Professor', 'jaroy@mail.med.upenn.edu']]
-Sammel: [[' Sc.D.', 'Professor', 'msammel@cceb.med.upenn.edu']]
-Shaw: [[' PhD', 'Assistant Professor', 'shawp@upenn.edu']]
-Shinohara: [['0', 'Assistant Professor', 'rshi@mail.med.upenn.edu']]
-Shou: [[' Ph.D.', 'Assistant Professor', 'hshou@mail.med.upenn.edu']]
-Shults: [[' Ph.D.', 'Professor', 'jshults@mail.med.upenn.edu']]
-Stephens: [[' Ph.D.', 'Assistant Professor', 'alisaste@mail.med.upenn.edu']]
-Troxel: [[' ScD', 'Professor', 'atroxel@mail.med.upenn.edu']]
-Xiao: [[' PhD', 'Assistant Professor', 'rxiao@mail.med.upenn.edu']]
-Xie: [[' Ph.D.', 'Associate Professor', 'sxie@mail.med.upenn.edu'], [' PhD', 'Assistant Professor', 'dxie@upenn.edu']]
-Yang: [[' Ph.D.', 'Assistant Professor', 'weiyang@mail.med.upenn.edu']]
+[(('Scarlett L.', 'Bellamy'), [' Sc.D.', 'Associate Professor', 'bellamys@mail.med.upenn.edu']), (('Warren B.', 'Bilker'), ['Ph.D.', 'Professor', 'warren@upenn.edu']), (('Matthew W', 'Bryan'), [' PhD', 'Assistant Professor', 'bryanma@upenn.edu']), (('Jinbo', 'Chen'), [' Ph.D.', 'Associate Professor', 'jinboche@upenn.edu']), (('Susan S', 'Ellenberg'), [' Ph.D.', 'Professor', 'sellenbe@upenn.edu']), (('Jonas H.', 'Ellenberg'), [' Ph.D.', 'Professor', 'jellenbe@mail.med.upenn.edu']), (('Rui', 'Feng'), [' Ph.D', 'Assistant Professor', 'ruifeng@upenn.edu']), (('Benjamin C.', 'French'), [' PhD', 'Associate Professor', 'bcfrench@mail.med.upenn.edu']), (('Phyllis A.', 'Gimotty'), [' Ph.D', 'Professor', 'pgimotty@upenn.edu']), (('Wensheng', 'Guo'), [' Ph.D', 'Professor', 'wguo@mail.med.upenn.edu']), (('Yenchih', 'Hsu'), [' Ph.D.', 'Assistant Professor', 'hsu9@mail.med.upenn.edu']), (('Rebecca A', 'Hubbard'), [' PhD', 'Associate Professor', 'rhubb@mail.med.upenn.edu']), (('Wei-Ting', 'Hwang'), [' Ph.D.', 'Associate Professor', 'whwang@mail.med.upenn.edu']), (('Marshall M.', 'Joffe'), [' MD MPH Ph.D', 'Professor', 'mjoffe@mail.med.upenn.edu']), (('J. Richard', 'Landis'), [' B.S.Ed. M.S. Ph.D.', 'Professor', 'jrlandis@mail.med.upenn.edu']), (('Mingyao', 'Li'), [' Ph.D.', 'Associate Professor', 'mingyao@mail.med.upenn.edu']), (('Yimei', 'Li'), [' Ph.D.', 'Assistant Professor', 'liy3@email.chop.edu']), (('Hongzhe', 'Li'), [' Ph.D', 'Professor', 'hongzhe@upenn.edu']), (('A. Russell', 'Localio'), [' JD MA MPH MS PhD', 'Associate Professor', 'rlocalio@upenn.edu']), (('Nandita', 'Mitra'), [' Ph.D.', 'Associate Professor', 'nanditam@mail.med.upenn.edu']), (('Knashawn H.', 'Morales'), [' Sc.D.', 'Associate Professor', 'knashawn@mail.med.upenn.edu']), (('Kathleen Joy', 'Propert'), [' Sc.D.', 'Professor', 'propert@mail.med.upenn.edu']), (('Mary E.', 'Putt'), [' PhD ScD', 'Professor', 'mputt@mail.med.upenn.edu']), (('Sarah Jane', 'Ratcliffe'), [' Ph.D.', 'Associate Professor', 'sratclif@upenn.edu']), (('Michelle Elana', 'Ross'), [' PhD', 'Assistant Professor', 'michross@upenn.edu']), (('Jason A.', 'Roy'), [' Ph.D.', 'Associate Professor', 'jaroy@mail.med.upenn.edu']), (('Mary D.', 'Sammel'), [' Sc.D.', 'Professor', 'msammel@cceb.med.upenn.edu']), (('Pamela Ann', 'Shaw'), [' PhD', 'Assistant Professor', 'shawp@upenn.edu']), (('Russell Takeshi', 'Shinohara'), ['0', 'Assistant Professor', 'rshi@mail.med.upenn.edu']), (('Haochang', 'Shou'), [' Ph.D.', 'Assistant Professor', 'hshou@mail.med.upenn.edu']), (('Justine', 'Shults'), [' Ph.D.', 'Professor', 'jshults@mail.med.upenn.edu']), (('Alisa Jane', 'Stephens'), [' Ph.D.', 'Assistant Professor', 'alisaste@mail.med.upenn.edu']), (('Andrea Beth', 'Troxel'), [' ScD', 'Professor', 'atroxel@mail.med.upenn.edu']), (('Rui', 'Xiao'), [' PhD', 'Assistant Professor', 'rxiao@mail.med.upenn.edu']), (('Dawei', 'Xie'), [' PhD', 'Assistant Professor', 'dxie@upenn.edu']), (('Sharon Xiangwen', 'Xie'), [' Ph.D.', 'Associate Professor', 'sxie@mail.med.upenn.edu']), (('Wei (Peter)', 'Yang'), [' Ph.D.', 'Assistant Professor', 'weiyang@mail.med.upenn.edu']), ('Landis', [[' B.S.Ed. M.S. Ph.D.', 'Professor', 'jrlandis@mail.med.upenn.edu']]), ('Sammel', [[' Sc.D.', 'Professor', 'msammel@cceb.med.upenn.edu']]), ('Ratcliffe', [[' Ph.D.', 'Associate Professor', 'sratclif@upenn.edu']]), ('Yang', [[' Ph.D.', 'Assistant Professor', 'weiyang@mail.med.upenn.edu']]), ('Bellamy', [[' Sc.D.', 'Associate Professor', 'bellamys@mail.med.upenn.edu']]), ('Feng', [[' Ph.D', 'Assistant Professor', 'ruifeng@upenn.edu']]), ('Shaw', [[' PhD', 'Assistant Professor', 'shawp@upenn.edu']]), ('Shinohara', [['0', 'Assistant Professor', 'rshi@mail.med.upenn.edu']]), ('Chen', [[' Ph.D.', 'Associate Professor', 'jinboche@upenn.edu']]), ('Shou', [[' Ph.D.', 'Assistant Professor', 'hshou@mail.med.upenn.edu']]), ('Shults', [[' Ph.D.', 'Professor', 'jshults@mail.med.upenn.edu']]), ('Bilker', [['Ph.D.', 'Professor', 'warren@upenn.edu']]), ('Gimotty', [[' Ph.D', 'Professor', 'pgimotty@upenn.edu']]), ('Mitra', [[' Ph.D.', 'Associate Professor', 'nanditam@mail.med.upenn.edu']]), ('Xie', [[' Ph.D.', 'Associate Professor', 'sxie@mail.med.upenn.edu'], [' PhD', 'Assistant Professor', 'dxie@upenn.edu']]), ('Li', [[' Ph.D.', 'Assistant Professor', 'liy3@email.chop.edu'], [' Ph.D.', 'Associate Professor', 'mingyao@mail.med.upenn.edu'], [' Ph.D', 'Professor', 'hongzhe@upenn.edu']]), ('Xiao', [[' PhD', 'Assistant Professor', 'rxiao@mail.med.upenn.edu']]), ('Ellenberg', [[' Ph.D.', 'Professor', 'sellenbe@upenn.edu'], [' Ph.D.', 'Professor', 'jellenbe@mail.med.upenn.edu']]), ('Ross', [[' PhD', 'Assistant Professor', 'michross@upenn.edu']]), ('Morales', [[' Sc.D.', 'Associate Professor', 'knashawn@mail.med.upenn.edu']]), ('Joffe', [[' MD MPH Ph.D', 'Professor', 'mjoffe@mail.med.upenn.edu']]), ('Roy', [[' Ph.D.', 'Associate Professor', 'jaroy@mail.med.upenn.edu']]), ('Localio', [[' JD MA MPH MS PhD', 'Associate Professor', 'rlocalio@upenn.edu']]), ('French', [[' PhD', 'Associate Professor', 'bcfrench@mail.med.upenn.edu']]), ('Bryan', [[' PhD', 'Assistant Professor', 'bryanma@upenn.edu']]), ('Propert', [[' Sc.D.', 'Professor', 'propert@mail.med.upenn.edu']]), ('Troxel', [[' ScD', 'Professor', 'atroxel@mail.med.upenn.edu']]), ('Hsu', [[' Ph.D.', 'Assistant Professor', 'hsu9@mail.med.upenn.edu']]), ('Stephens', [[' Ph.D.', 'Assistant Professor', 'alisaste@mail.med.upenn.edu']]), ('Guo', [[' Ph.D', 'Professor', 'wguo@mail.med.upenn.edu']]), ('Putt', [[' PhD ScD', 'Professor', 'mputt@mail.med.upenn.edu']]), ('Hubbard', [[' PhD', 'Associate Professor', 'rhubb@mail.med.upenn.edu']]), ('Hwang', [[' Ph.D.', 'Associate Professor', 'whwang@mail.med.upenn.edu']])]
 ```
 
 Place your code in this file: [advanced_python_dict.py](python/advanced_python_dict.py)

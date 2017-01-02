@@ -1,6 +1,7 @@
 import csv
 import re
 import common
+import operator
 
 FILE = 'faculty.csv'
 
@@ -19,13 +20,21 @@ with open(FILE, 'r') as csvfile:
             data[lastname] = []
         title = common.fetch_title(row[2])
         data[lastname].append([row[1], title, row[3]])
-print("Unordered data:")
-first_three_keys = list(data.keys())[:3]
-for key in first_three_keys:
-    print('{}: {}'.format(key, data[key]))
+print("Q6")
+print(sorted(data.items())[:3])
 
 
-print("Ordered data:")
-ordered_keys = sorted(list(data.keys()))
-for key in ordered_keys:
-    print('{}: {}'.format(key, data[key]))
+with open(FILE, 'r') as csvfile:
+    reader = csv.reader(csvfile)
+    next(reader, None)
+    for row in reader:
+        match = re.match(r'(.*)\s([A-z]+)$', row[0])
+        name = (match.group(1), match.group(2))
+        title = common.fetch_title(row[2])
+        data[name]= [row[1], title, row[3]]
+
+print("Q7")
+print(sorted(data.items(), key=lambda k: k[0][0])[:3])
+
+print("Q8")
+print(sorted(data.items(), key=lambda k: k[0][1]))

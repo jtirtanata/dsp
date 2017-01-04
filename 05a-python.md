@@ -12,7 +12,7 @@ For quick and easy interactive practice with Python, many people enjoy [Codecade
 
 How are Python lists and tuples similar and different? Which will work as keys in dictionaries? Why?
 
-Even though both are a sequence of values, lists are mutable while tuples are immutable.
+>> Even though both are a sequence of values, lists are mutable while tuples are immutable.
 Since a key in a dictionary must be immutable, tuples can be used as a key.
 
 ---
@@ -21,12 +21,12 @@ Since a key in a dictionary must be immutable, tuples can be used as a key.
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
-Sets, like lists are collections, and like all collections it has membership testing and length. The key difference
+>> Sets, like lists are collections, and like all collections it has membership testing and length. The key difference
 is sets do not keep a record of the element position or order of insertion. There must also be no duplicate
 elements in sets. How a set can be more advantageous than lists is that it support common
 set operations in math such as union, intersection and difference.
-
-**list**
+>>
+ **list**
 ```python
 >>> a = [3, 2, 1]
 >>> a.append(4)
@@ -44,7 +44,6 @@ True
 >>> print a
 Set([3, 2, 1, 4])
 ```
-
 In regards to finding an element, sets are a lot faster than lists because it performs
 lookup by computing a hash of the element. On the other hand, list's implementation is
 usually an array and while it's good to find the element of a certain index, it has to
@@ -56,8 +55,7 @@ go through the array to see if the element exists in the list.
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
-`lambda` is a function without a name. It doesn't require a name because it is usually small, and is just needed where they've been created. It allows functions to be assigned to a variable and be returned from another function. It is used a lot in list comprehension by using filter, map and reduce.
-
+>> `lambda` is a function without a name. It doesn't require a name because it is usually small, and is just needed where they've been created. It allows functions to be assigned to a variable and be returned from another function. It is used a lot in list comprehension by using filter, map and reduce.
 ```Python
 >>> sorted([1, 2, 3, 4], key=lambda x: math.pow((2 - x), 2))
 [2, 1, 3, 4]
@@ -68,7 +66,7 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
-List comprehension is an alternative way to filter, map and reduce lists. It can completely substitute those functions and syntax is preferable to some people.
+>> List comprehension is an alternative way to filter, map and reduce lists. It can completely substitute those functions and syntax is preferable to some people.
 
 ```python
 # filter
@@ -91,8 +89,7 @@ List comprehension is an alternative way to filter, map and reduce lists. It can
 {'dos': 'two', 'uno': 'one', 'tres': 'three'}
 
 ```
-From the examples above, we can see that set comprehension is similar with list comprehension using curly braces instead of square brackets.
-
+>>From the examples above, we can see that set comprehension is similar with list comprehension using curly braces instead of square brackets.
 Similarly, make the dictionary iterable and map two values, the key and value, for dictionary comprehension.
 
 ---
@@ -108,7 +105,7 @@ date_start = '01-02-2013'
 date_stop = '07-28-2015'
 ```
 
-937
+>>937
 
 b.  
 ```
@@ -116,7 +113,7 @@ date_start = '12312013'
 date_stop = '05282015'  
 ```
 
-513
+>>513
 
 c.  
 ```
@@ -124,7 +121,7 @@ date_start = '15-Jan-1994'
 date_stop = '14-Jul-2015'  
 ```
 
-7850
+>>7850
 
 Place code in this file: [q5_datetime.py](python/q5_datetime.py)
 
